@@ -1,0 +1,1016 @@
+    /* Etusivun otsikko */
+h1 {
+    text-align: center;
+    border-top: 20px;
+    font-size: 36px;
+}
+
+    /* Gallerian otsikko */
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    color: black;
+    text-shadow: 2px 2px 5px
+}
+
+    /*Yhteystietosivun h3 otsikko*/
+h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    color: black;
+
+}
+
+    /* Väritestausosion otsikko */
+h4 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    color: black;
+    text-shadow: 2px 2px 5px
+}
+
+/* Palvelusivun otsikko */
+h5 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: xx-large;
+}
+/* Iconi */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin: 70px 0;
+}
+
+.icon-container img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+    /* GALLERIA */
+    /* Maalausivun 1 kuva */
+.maalaus1 {
+    margin-left: 500px;
+    margin-top: 50px;
+    width: 900px;
+}
+    /* Maalausivun 2 kuva */
+.maalaus2 {
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 900px;
+}
+    /* Maalausivun 3 kuva */
+.maalaus3 {
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 900px;
+}
+    /* Maalausivun 4 kuva */
+.maalaus4 {
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 900px;
+}
+    /* Maalausivun 5 kuva */
+.maalaus5 {
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 900px;
+}
+    /* Maalausivun 6 kuva */
+.tapetointi1 {
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 900px;
+}
+    /* Maalausivun 7 kuva */
+.tapetointi2 {
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 900px;
+}
+
+    /* Maalausivun 1 kuvan kirjoitus */
+.p1 {
+    margin-left: 600px;
+    font-size: 27px;
+    color: black;
+    text-shadow: 2px 2px 5px
+}
+.p2 {
+    /* Maalausivun 2 kuvan kirjoitus */
+    margin-left: 580px;
+    font-size: 27px;
+    color: black;
+    text-shadow: 2px 2px 5px
+}
+.p3 {
+    /* Maalausivun 3 kuvan kirjoitus */
+    margin-left: 735px;
+    font-size: 27px;
+    color: black;
+    text-shadow: 2px 2px 5px
+}
+    /* Maalausivun 4 kuvan kirjoitus */
+.p4 {
+    margin-left: 800px;
+    font-size: 27px;
+    color: black;
+    text-shadow: 2px 2px 5px
+}
+    /* Maalausivun 5 kuvan kirjoitus */
+.p5 {
+    margin-left: 800px;
+    font-size: 27px;
+    color: black;
+    text-shadow: 2px 2px 5px
+}
+    /* Maalausivun 6 kuvan kirjoitus */
+.p6 {
+    margin-left: 615px;
+    font-size: 27px;
+    color: black;
+    text-shadow: 2px 2px 5px
+}
+    /* Maalausivun 7 kuvan kirjoitus */
+.p7 {
+    margin-left: 750px;
+    font-size: 27px;
+    color: black;
+    text-shadow: 2px 2px 5px
+}
+
+
+
+
+
+
+
+
+    /*Navigointtipalkki */
+.horisontti3 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 20px;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+  /*Navigointtipalkki */
+  .horisontti3 li {
+    float: left;
+    text-align: center;
+  }
+  /*Navigointtipalkki */
+  .horisontti3 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /*Navigointtipalkki */
+  .horisontti3 li a:hover:not(.avoin) {
+    background-color: #f8a400;
+  }
+  /*Navigointtipalkki */
+  .horisontti3 .avoin {
+    background-color: rgb(15, 15, 15);
+  }
+
+
+
+
+
+
+
+
+/* Yhteydenottosivu */
+.contact {
+  background: linear-gradient(45deg, #FF6F61, #FE840E, #C62168, #DD4132);
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/* Yhteydenottolomake */
+.contact-form-container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  
+}
+
+.contact-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.contact-form .submit-btn {
+  background-color: #f8a400;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.contact-form .submit-btn:hover {
+  background-color: #e88c00;
+}
+
+/* Yhteystiedot */
+.contact-info {
+  margin-top: 40px;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  width: 60%;
+  margin: 40px auto;
+}
+
+.contact-info h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.contact-info a {
+  color: #f8a400;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+/* instagram kuvake */
+  .kuva1 {
+    margin-top: 20px;
+    margin-left: 42.5%;
+    width: 70px;
+    height: 70px;
+  }
+  /* Yhteystieto youtube kuvake */
+  .kuva2 {
+    margin-left: 136px;
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+  }
+  .map-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.map-container iframe {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    border: 0;
+}
+
+
+
+
+
+
+
+
+/* VÄRITESTAUSOSIO SIVU */
+  /* Värien testaussivun tabelit*/
+  .column1 {
+    float: left;
+    margin-left: 325px;
+    width: 30%;
+    padding: 10px;
+    height: 400px;
+    text-align: center;
+    border: 3px solid MAROON;
+    background-image: url(testaus5.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+  }
+  .column2 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 400px;
+    text-align: center;
+    border: 3px solid MAROON;
+    background-image: url(testaus5.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+  }
+  /* Värien testaussivun tabelit*/
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    box-sizing: border-box;
+  }
+  /* Värien testaussivun headeri*/
+  .header1 {
+    padding: 30px;
+    text-align: center;
+    font-size: x-large;
+  }
+
+  /* Väritestaus osio */
+  .väri1 {
+    margin-left: 335px;
+    background-color: #DD4132;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .väri2 {
+    background-color: #9E1030;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .väri3 {
+    background-color: #FE840E;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .väri4 {
+    background-color: #FF6F61;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .väri5 {
+    background-color: #C62168;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .väri6 {
+    background-color: #8D9440;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .väri7 {
+    background-color: #FFD662;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .väri8 {
+    background-color: #00539C;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+
+  /* Väritestaus osio toisen rivin samat värit */
+  .vär1 {
+    margin-left: 20px;
+    background-color: #DD4132;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .vär2 {
+    background-color: #9E1030;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .vär3 {
+    background-color: #FE840E;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .vär4 {
+    background-color: #FF6F61;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .vär5 {
+    background-color: #C62168;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .vär6 {
+    background-color: #8D9440;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .vär7 {
+    background-color: #FFD662;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .vär8 {
+    background-color: #00539C;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+
+  /* Väritestaus alemman rivin värit */
+  .väri9 {
+    margin-left: 335px;
+    background-color: #755139;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .väri10 {
+    background-color: #D69C2F;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .väri11 {
+    background-color: #616247;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .väri12 {
+    background-color: #E8B5CE;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .väri13 {
+    background-color: #D2C29D;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .väri14 {
+    background-color: #343148;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .väri15 {
+    background-color: #F0EAD6;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .väri16 {
+    background-color: #615550;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .vär9 {
+    margin-left: 20px;
+    background-color: #755139;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .vär10 {
+    background-color: #D69C2F;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .vär11 {
+    background-color: #616247;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .vär12 {
+    background-color: #E8B5CE;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .vär13 {
+    background-color: #D2C29D;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .vär14 {
+    background-color: #343148;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .vär15 {
+    background-color: #F0EAD6;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  .vär16 {
+    background-color: #615550;
+    box-sizing: border-box;
+    width: 3.8%;
+    height: 65px;
+    float: left;
+    border: 3px solid MAROON;
+    cursor: pointer;
+  }
+  /* väritestausosion buttoni  */
+  .väritestaus {
+    margin-left: 860px;
+  }
+
+
+
+
+
+
+
+  /* PALVELUT SIVU */
+  /* Maalauskuva */
+  .container123 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh; 
+    position: relative;
+}
+
+/* Kuva ja sen asettelu */
+.kuva {
+    position: relative;
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+    margin-bottom: 20px; 
+}
+
+/* Alleviivatut otsikot */
+.palvelusivu, .palvelusivu1 {
+    text-align: center;
+    font-size: xx-large;
+    margin: 10px 0;
+}
+
+/* Hinnasto-tekstit ja painike */
+.hinnasto, .hinnasto1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.hinta, .hinta1 {
+    text-align: center;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
+    margin-top: 10px;
+    font-size: x-large;
+}
+
+.hinnasto-teksti {
+    font-size: medium;
+    color: black;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    display: none;
+    font-size: x-large; 
+}
+
+
+
+
+
+
+
+
+
+/* ETUSIVU */
+/* Perustyylit */
+
+/* Etusivun hero-osa */
+.hero {
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  color: black;
+  text-align: center;
+  padding: 0px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+/* tutustu palveluihimme buttoni */
+.cta-button {
+  background-color: #f8a400;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e88c00;
+}
+
+/* Palvelut */
+.services {
+  text-align: center;
+  padding: 50px 0;
+  background-color: linear-gradient(45deg, #FF6F61, #FE840E, #C62168, #DD4132);
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service {
+  width: 250px;
+  text-align: center;
+}
+
+.service img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Hinnasto */
+.pricing {
+  background-color: linear-gradient(45deg, #FF6F61, #FE840E, #C62168, #DD4132);
+  padding: 50px 0;
+}
+
+.price-info {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.price-item {
+  text-align: center;
+}
+
+.price-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.price-item p {
+  font-size: 20px;
+  color: black;
+}
+
+/* Yhteydenottolomake */
+.contact {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.contact-form .submit-btn {
+  background-color: #f8a400;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.contact-form .submit-btn:hover {
+  background-color: #e88c00;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* RESPONSIIVISUUS *
+/* Responsiivisuus - Mobiililaitteet */
+@media (max-width: 768px) {
+  /* Hero-osa */
+  .hero {
+    padding: 50px 20px;
+    background-size: cover;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .cta-button {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+
+  /* Galleria */
+  .maalaus1, .maalaus2, .maalaus3, .maalaus4, .maalaus5, .maalaus6, .tapetointi1, .tapetointi2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  /* Maalaus- ja Tapetointikuvat */
+  .maalaus1, .maalaus2, .maalaus3, .maalaus4, .maalaus5, .maalaus6 {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .tapetointi1, .tapetointi2 {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  /* Gallerian kuvatekstit */
+  .p1, .p2, .p3, .p4, .p5, .p6, .p7 {
+    font-size: 20px;
+    margin-left: 0;
+  }
+
+  /* Navigointipalkki */
+  .horisontti3 ul {
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .horisontti3 li {
+    display: inline-block;
+  }
+
+  .horisontti3 li a {
+    padding: 10px 12px;
+  }
+
+  /* Palvelut */
+  .service-container {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .service {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .service img {
+    width: 100%;
+  }
+
+  /* Yhteydenottolomake */
+  .contact-form-container {
+    width: 90%;
+  }
+
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .contact-form .submit-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  /* Väritestaus */
+  .column1, .column2 {
+    float: none;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* Väritestaus osio */
+  .väri1, .väri2, .väri3, .väri4, .väri5, .väri6, .väri7, .väri8,
+  .vär1, .vär2, .vär3, .vär4, .vär5, .vär6, .vär7, .vär8,
+  .väri9, .väri10, .väri11, .väri12, .väri13, .väri14, .väri15, .väri16 {
+    width: 22%;
+    margin: 10px 1%;
+    height: 50px;
+  }
+
+  .service-container, .price-info {
+    display: block;
+    text-align: center;
+  }
+
+  /* Mobiili-palvelukuvat */
+  .maalaaminen, .tapetointi {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Mobiilikuva hinta */
+  .hinnasto, .hinnasto1 {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .hinta, .hinta1 {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+
+
+
+
+
+
+
+/* Nuolinäppäinten tyylit */
+.arrow {
+  position: fixed;
+  top: 50%; 
+  transform: translateY(-50%); 
+  font-size: 7rem; 
+  color: black; 
+  cursor: pointer; 
+  z-index: 1000; 
+}
+/* Nuolet */
+.left-arrow {
+  left: 20px;
+}
+
+.right-arrow {
+  right: 20px;
+}
