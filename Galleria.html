@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,0">
+        <title>Näyttötyö</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+
+    <!-- Sivun tyylittelyä -->
+    <style>
+     body {
+    background: linear-gradient(45deg, #FF6F61, #FE840E, #C62168, #DD4132); /* Sateenkaaren värit */
+    color: ; 
+}
+
+    </style>
+    <body>
+
+            <!-- Navigointipalkki -->
+            <div class="horisontti3">
+            <ul>
+             <li><a href="file:///C:/Users/s4hyni01/OneDrive%20-%20OSAO/N%C3%A4ytt%C3%B6ty%C3%B6%20HTML,%20CSS,%20JAVASCRIPT/index.html"> Etusivu </a></li>
+             <li><a href="file:///C:/Users/s4hyni01/OneDrive%20-%20OSAO/N%C3%A4ytt%C3%B6ty%C3%B6%20HTML,%20CSS,%20JAVASCRIPT/Palvelut.html"> Palvelut </a></li>
+             <li><a href="file:///C:/Users/s4hyni01/OneDrive%20-%20OSAO/N%C3%A4ytt%C3%B6ty%C3%B6%20HTML,%20CSS,%20JAVASCRIPT/V%C3%A4rientestaus.html"> Värien testaus </a></li>
+             <li><a href="file:///C:/Users/s4hyni01/OneDrive%20-%20OSAO/N%C3%A4ytt%C3%B6ty%C3%B6%20HTML,%20CSS,%20JAVASCRIPT/Galleria.html"> Galleria </a></li>
+             <li><a href="file:///C:/Users/s4hyni01/OneDrive%20-%20OSAO/N%C3%A4ytt%C3%B6ty%C3%B6%20HTML,%20CSS,%20JAVASCRIPT/Yhteystiedot.html"> Ota yhteyttä! </a></li>
+            </ul>
+           </div>
+            
+
+
+            <h2>Galleria</h2>
+
+
+            <div class="content">
+                <div class="gallery-container">
+
+                    <!-- Nuolinäppäin vaihda kuvaa-->
+                    <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+                    
+                    <!-- Kuvagalleria -->
+                    <!-- Kuva1 -->
+                    <div class="gallery">
+                        <img class="gallery-image" src="Maalaus.jpg" alt="Maalaus 1"> 
+                        <p class="caption">Maalarimestarimme Jaakko laittamassa aurinkoista väriä seinään!</p>
+                    </div>
+                     <!-- Kuva2 -->
+                    <div class="gallery">
+                        <img class="gallery-image" src="Maalaus2.jpg" alt="Maalaus 2">
+                        <p class="caption">Jarkko tekemässä valmisteluja, että voi ruveta laittamaan väriä pintaan!</p>
+                    </div>
+                     <!-- Kuva3 -->
+                    <div class="gallery">
+                        <img class="gallery-image" src="Maalaus3.jpg" alt="Maalaus 3">
+                        <p class="caption">Teppo tekemässä pintatöitä valmiiksi!</p>
+                    </div>
+                     <!-- Kuva4 -->
+                    <div class="gallery">
+                        <img class="gallery-image" src="Maalaus5.jpg" alt="Maalaus 5">
+                        <p class="caption">Valmisteluja eteenpäin!</p>
+                    </div>
+                     <!-- Kuva5 -->
+                    <div class="gallery">
+                        <img class="gallery-image" src="Maalaus4.jpg" alt="Maalaus 4">
+                        <p class="caption">Pikkasen pakkelia seinään!</p>
+                    </div>
+                     <!-- Kuva6 -->
+                    <div class="gallery">
+                        <img class="gallery-image" src="Tapetointi.jpg" alt="Tapetointi 1">
+                        <p class="caption">Tapetointi neromme Pekka miettimässä jo seuraavaa projektia!</p>
+                    </div>
+                     <!-- Kuva7 -->
+                    <div class="gallery">
+                        <img class="gallery-image" src="Tapetointi2.jpg" alt="Tapetointi 2">
+                        <p class="caption">Ja kas näin, homma etenee lauleskellen!</p>
+                    </div>
+        
+                    <!-- Nuolinäppäin vaihda kuvaa -->
+                    <button class="next" onclick="changeImage(1)">&#10095;</button>
+                </div>
+            </div>
+
+            <!-- Scripti tiedosto -->
+            <script src="script1.js"></script>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Maalausfirma | Kaikki oikeudet pidätetään</p>
+</footer>
+
+
+
+
+
+</body>
+
+</html>
