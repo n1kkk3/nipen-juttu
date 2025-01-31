@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,0">
+        <title>Näyttötyö</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <!-- Sivun tyylittelyä -->
+    <style>
+        body {
+    background: linear-gradient(45deg, #FF6F61, #FE840E, #C62168, #DD4132); /* Sateenkaaren värit */
+    color: ; 
+}
+    </style>
+    <body>
+
+        <!-- Navigointipalkki -->
+        <div class="horisontti3">
+            <ul>
+             <li><a href="file:///C:/Users/s4hyni01/OneDrive%20-%20OSAO/N%C3%A4ytt%C3%B6ty%C3%B6%20HTML,%20CSS,%20JAVASCRIPT/index.html"> Etusivu </a></li>
+             <li><a href="file:///C:/Users/s4hyni01/OneDrive%20-%20OSAO/N%C3%A4ytt%C3%B6ty%C3%B6%20HTML,%20CSS,%20JAVASCRIPT/Palvelut.html"> Palvelut </a></li>
+             <li><a href="file:///C:/Users/s4hyni01/OneDrive%20-%20OSAO/N%C3%A4ytt%C3%B6ty%C3%B6%20HTML,%20CSS,%20JAVASCRIPT/V%C3%A4rientestaus.html"> Värien testaus </a></li>
+             <li><a href="file:///C:/Users/s4hyni01/OneDrive%20-%20OSAO/N%C3%A4ytt%C3%B6ty%C3%B6%20HTML,%20CSS,%20JAVASCRIPT/Galleria.html"> Galleria </a></li>
+             <li><a href="file:///C:/Users/s4hyni01/OneDrive%20-%20OSAO/N%C3%A4ytt%C3%B6ty%C3%B6%20HTML,%20CSS,%20JAVASCRIPT/Yhteystiedot.html"> Ota yhteyttä! </a></li>
+            </ul>
+        </div>
+
+
+
+        <!-- Tapetointi sivun tekstit, hinnastot sekä esiin tuleva teksti klikkaa tätä kirjoituksesta -->
+        <div class="container123">
+            <p class="palvelusivu1"><b><u>Tapetointi</u></b></p>
+            <img class="kuva" src="Tapetointi.jpg" alt="Tapetointi">
+            <div class="hinnasto1">
+                <p class="hinta1" onclick="toggleHinnasto('tapetointiHinnasto')">Klikkaa tätä!</p>
+                <div id="tapetointiHinnasto" class="hinnasto-teksti">
+                    <p>Hinnasto Tapetointi: 150€ - 250€/h</p>
+                    <p>Pintatyöt esim hionta ja kittaus 100-200€/h</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Nuoli joka menee edelliselle sivulle Maalaus palvelu -->
+        <div class="arrow left-arrow" onclick="goToPreviousPage()">&#8592;</div>
+    
+
+        <!-- Footer -->
+        <footer>
+        <p>&copy; 2024 Maalausfirma | Kaikki oikeudet pidätetään</p>
+        </footer>
+        
+        <!-- Scripti tiedosto -->
+        <script src="script.js"></script>
+
+        
+
+</body>
+</html>
